@@ -31,13 +31,13 @@ If you are not sure where to introduce our update site address, follow the next 
 
 1. Download and install [Eclipse Xtext](https://www.eclipse.org/Xtext/download.html).
 2. Start eclipse and create a new workspace. To start Eclipse, double-click on the eclipse.exe (Microsoft Windows) or eclipse (Linux / Mac) file in the directory where you unpacked Eclipse Xtext. The system will prompt you for the workspace location (file path). Select an empty directory and click the "OK" button.
-3. Follow the steps according to your user profile. 
+3. Follow the next steps according to your user profile: 
 
-#### Developers interested in the VM code but **not contributing** to the VM project:
+#### Developers interested to have the VM code:
 - Follow the steps 1. and 2. 
 - Download the VM project repository [zip](https://github.com/ViViD-DiverSE/VM-Source/archive/master.zip)
 
-#### Developers interested in the VM code and **contributing** to the VM project:
+#### Developers interested to contribute to the VM project:
 - Follow the steps 1. and 2.
 - Create a new branch (i.e., fork it) of the [GitHub VM project](https://github.com/ViViD-DiverSE/VM-Source/) following the Github [instructions](https://help.github.com/articles/fork-a-repo). We suggest you rename your the new branch to identify clearly your intended VM improvement (e.g., implementing-new-xyz-annotations-types).
 - We recommend to install and use the [Egit](https://www.eclipse.org/egit/) plugin as it is very well integrated with Eclipse, however, you are free to use any other Git software. EGit will ease to perform the following 2 steps and committing changes to our cloned copy.
