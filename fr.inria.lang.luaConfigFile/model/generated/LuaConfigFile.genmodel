@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/fr.inria.lang.luaConfigFile/src-gen" editDirectory="/fr.inria.lang.luaConfigFile.edit/src"
+    editorDirectory="/fr.inria.lang.luaConfigFile.editor/src" modelPluginID="fr.inria.lang.luaConfigFile"
+    forceOverwrite="true" modelName="LuaConfigFile" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="fr.inria.lang.luaConfigFile.edit"
+    editorPluginID="fr.inria.lang.luaConfigFile.editor" runtimeVersion="2.9">
+  <genPackages prefix="Conf" basePackage="fr.inria.lang" disposableProviderFactory="true"
+      fileExtensions="conf" ecorePackage="LuaConfigFile.ecore#/">
+    <genClasses ecoreClass="LuaConfigFile.ecore#//LuaConfigFile">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference LuaConfigFile.ecore#//LuaConfigFile/rows"/>
+    </genClasses>
+    <genClasses ecoreClass="LuaConfigFile.ecore#//Assignment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute LuaConfigFile.ecore#//Assignment/feature"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute LuaConfigFile.ecore#//Assignment/attribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute LuaConfigFile.ecore#//Assignment/value"/>
+    </genClasses>
+    <genClasses ecoreClass="LuaConfigFile.ecore#//GeneratedComment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute LuaConfigFile.ecore#//GeneratedComment/value"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

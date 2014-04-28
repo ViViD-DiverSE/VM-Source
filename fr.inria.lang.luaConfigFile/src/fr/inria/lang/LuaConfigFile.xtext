@@ -1,0 +1,28 @@
+grammar fr.inria.lang.LuaConfigFile with org.eclipse.xtext.common.Terminals
+
+generate conf "http://www.inria.fr/lang/LuaConfigFile"
+
+LuaConfigFile:
+	rows+=(GeneratedComment | Assignment)+;
+
+Assignment:
+	(feature=MYCHAR '.') attribute=MYCHAR '=' value= (Real|Integer|MYCHAR)
+;
+
+GeneratedComment:
+	'--' value=(MYCOMMENT|Integer) 
+;
+
+terminal MYCHAR:
+	(('a'..'z')|('A'..'Z'))+
+;
+
+terminal MYCOMMENT:
+	(('a'..'z')|('A'..'Z')|':'|' ')+
+;
+
+Real:
+		Integer '.' INT;
+			
+Integer:
+		('-')? INT;
