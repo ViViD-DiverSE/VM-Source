@@ -3,7 +3,7 @@ VM-Source
 Welcome to the VM wiki!
 Last update 26/03/2014 by [@mauricio.alferez](https://github.com/mao2013)
 
-VM webpage: http://mao2013.github.io/VM/
+VM original webpage: http://mao2013.github.io/VM/
 
 ### Installation
 Only prerequisite:
