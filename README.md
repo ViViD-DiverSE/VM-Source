@@ -5,7 +5,7 @@ Last update 26/03/2014 by [@mauricio.alferez](https://github.com/mao2013)
 VM original webpage: http://mao2013.github.io/VM/
 
 ### Wiki
-Please visit our VM project [wiki](https://github.com/ViViD-DiverSE/VM-Source/wiki) to see tutorials and examples.
+Please visit our VM project [wiki](https://github.com/ViViD-DiverSE/VM-Source/wiki/VM-Wiki) to see tutorials and examples.
 
 ### Installation
 Only prerequisite:
