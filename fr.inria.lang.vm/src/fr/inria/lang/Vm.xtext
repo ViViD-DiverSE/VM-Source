@@ -4,11 +4,7 @@ generate vM "http://www.inria.fr/lang/VM"
 /*
  * @name Variability Modeling (VM) language textual grammar 
  * @version: 2.0 (models created with previous versions are incompatible)
- * @description:  This version is characterized by the following features: 
- * 1. Packaging: Helps to modularize large variability models.
- * 2. Metadata: Helps to identify original sources.
- * 3. Decomposition mixing: Allows to mix a tree-based hierarchical organization with isolated feature hierarchies. 
- * 4. Concrete Syntax sugar: VM 2.0 have a balance between too technical complicated and too simplistic syntaxes, making it usable to Domain Experts with a basic knowledge on programming      
+ * @description:  VM 2.0 is targeted to Domain Experts with a basic knowledge on programming.
  * @author: Mauricio Alferez, mauricioalferez.com, based on Matheiu Acher VM1.0
  * @email: mauricio.alferez@inria.fr
  * @organization: INRIA, France
